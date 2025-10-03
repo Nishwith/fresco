@@ -1,0 +1,352 @@
+{
+    "recipes": [
+        {
+            "id": "chicken-biryani",
+            "name": "Chicken Biryani",
+            "category": "non-veg",
+            "isPopular": true,
+            "image": "media/chicken_biryani.png",
+            "description": "Aromatic basmati rice layered with succulent marinated chicken, cooked to perfection using the Hyderabadi Dum style. A truly regal and flavorful dish.",
+            "ingredients": [
+                {
+                    "name": "Chicken (bone-in/boneless)",
+                    "quantity_per_person": "150g"
+                },
+                {
+                    "name": "Basmati Rice",
+                    "quantity_per_person": "100g (~1/2 cup)"
+                },
+                {
+                    "name": "Plain Yogurt (Curd)",
+                    "quantity_per_person": "3 tbsp (45g)"
+                },
+                {
+                    "name": "Ginger-Garlic Paste",
+                    "quantity_per_person": "1.5 tsp"
+                },
+                {
+                    "name": "Red Chili Powder",
+                    "quantity_per_person": "0.5 tsp"
+                },
+                {
+                    "name": "Turmeric Powder",
+                    "quantity_per_person": "0.25 tsp"
+                },
+                {
+                    "name": "Biryani Masala Powder",
+                    "quantity_per_person": "1 tsp"
+                },
+                {
+                    "name": "Salt (for marinade)",
+                    "quantity_per_person": "0.75 tsp"
+                },
+                {
+                    "name": "Lemon Juice",
+                    "quantity_per_person": "1 tsp"
+                },
+                {
+                    "name": "Fried Onions (Birista)",
+                    "quantity_per_person": "3 tbsp"
+                },
+                {
+                    "name": "Mint Leaves (chopped)",
+                    "quantity_per_person": "10-12 leaves"
+                },
+                {
+                    "name": "Coriander Leaves (chopped)",
+                    "quantity_per_person": "2 tbsp"
+                },
+                {
+                    "name": "Green Chilies (slit)",
+                    "quantity_per_person": "1-2"
+                },
+                {
+                    "name": "Oil / Ghee",
+                    "quantity_per_person": "2 tbsp (30ml)"
+                },
+                {
+                    "name": "Whole Spices (Cardamom, Cloves, Cinnamon, Bay Leaf, Shah Jeera)",
+                    "quantity_per_person": "small packet"
+                },
+                {
+                    "name": "Salt (for rice water)",
+                    "quantity_per_person": "1 tbsp"
+                },
+                {
+                    "name": "Saffron strands",
+                    "quantity_per_person": "4-5"
+                },
+                {
+                    "name": "Milk (for saffron)",
+                    "quantity_per_person": "2 tbsp"
+                },
+                {
+                    "name": "Ghee (for drizzling)",
+                    "quantity_per_person": "1 tsp"
+                },
+                {
+                    "name": "Water (for washing)",
+                    "quantity_per_person": "~500ml"
+                },
+                {
+                    "name": "Water (for boiling rice)",
+                    "quantity_per_person": "~1 Liter"
+                }
+            ]
+        },
+        {
+            "id": "butter-chicken",
+            "name": "Butter Chicken",
+            "category": "non-veg",
+            "isPopular": true,
+            "image": "media/butter_chicken.png",
+            "description": "A rich and creamy North Indian curry featuring tender chicken pieces in a luscious tomato, butter, and cashew gravy. Mildly spiced and incredibly satisfying.",
+            "ingredients": [
+                {
+                    "name": "Chicken Breast/Thigh (boneless)",
+                    "quantity_per_person": "150g"
+                },
+                {
+                    "name": "Plain Yogurt (Curd)",
+                    "quantity_per_person": "2 tbsp"
+                },
+                {
+                    "name": "Ginger-Garlic Paste",
+                    "quantity_per_person": "1 tsp"
+                },
+                {
+                    "name": "Kashmiri Red Chili Powder (for color)",
+                    "quantity_per_person": "0.5 tsp"
+                },
+                {
+                    "name": "Garam Masala",
+                    "quantity_per_person": "0.25 tsp"
+                },
+                {
+                    "name": "Salt (for marinade)",
+                    "quantity_per_person": "0.25 tsp"
+                },
+                {
+                    "name": "Lemon Juice",
+                    "quantity_per_person": "0.5 tsp"
+                },
+                {
+                    "name": "Oil (for grilling chicken)",
+                    "quantity_per_person": "1 tsp"
+                },
+                {
+                    "name": "Tomatoes (pureed/chopped)",
+                    "quantity_per_person": "200g (~2 medium)"
+                },
+                {
+                    "name": "Onion (chopped/paste)",
+                    "quantity_per_person": "40g (~1/2 small)"
+                },
+                {
+                    "name": "Cashews",
+                    "quantity_per_person": "8-10 pieces"
+                },
+                {
+                    "name": "Butter",
+                    "quantity_per_person": "1.5 tbsp"
+                },
+                {
+                    "name": "Ginger-Garlic Paste (for gravy)",
+                    "quantity_per_person": "0.5 tsp"
+                },
+                {
+                    "name": "Kashmiri Red Chili Powder (for gravy)",
+                    "quantity_per_person": "0.5 tsp"
+                },
+                {
+                    "name": "Garam Masala (for gravy)",
+                    "quantity_per_person": "0.25 tsp"
+                },
+                {
+                    "name": "Honey or Sugar",
+                    "quantity_per_person": "0.5 tsp"
+                },
+                {
+                    "name": "Kasuri Methi (Dried Fenugreek)",
+                    "quantity_per_person": "0.5 tsp"
+                },
+                {
+                    "name": "Fresh Cream",
+                    "quantity_per_person": "2 tbsp"
+                },
+                {
+                    "name": "Salt (for gravy)",
+                    "quantity_per_person": "0.5 tsp"
+                },
+                {
+                    "name": "Water (for washing)",
+                    "quantity_per_person": "~250ml"
+                },
+                {
+                    "name": "Water (for gravy/blending)",
+                    "quantity_per_person": "~150ml"
+                }
+            ]
+        },
+        {
+            "id": "matar-paneer-masala",
+            "name": "Matar Paneer Masala",
+            "category": "veg",
+            "isPopular": true,
+            "image": "media/matar_paneer.png",
+            "description": "A delightful vegetarian curry combining soft cubes of Indian cottage cheese (paneer) and fresh green peas in a savory onion-tomato based gravy.",
+            "ingredients": [
+                {
+                    "name": "Paneer (cubed)",
+                    "quantity_per_person": "100g"
+                },
+                {
+                    "name": "Green Peas (Matar)",
+                    "quantity_per_person": "50g (~1/3 cup)"
+                },
+                {
+                    "name": "Onion (pureed/chopped)",
+                    "quantity_per_person": "75g (~1 small)"
+                },
+                {
+                    "name": "Tomatoes (pureed)",
+                    "quantity_per_person": "100g (~1 medium)"
+                },
+                {
+                    "name": "Ginger-Garlic Paste",
+                    "quantity_per_person": "1 tsp"
+                },
+                {
+                    "name": "Green Chili (slit/chopped)",
+                    "quantity_per_person": "1"
+                },
+                {
+                    "name": "Oil or Ghee",
+                    "quantity_per_person": "1.5 tbsp"
+                },
+                {
+                    "name": "Cumin Seeds (Jeera)",
+                    "quantity_per_person": "0.5 tsp"
+                },
+                {
+                    "name": "Turmeric Powder",
+                    "quantity_per_person": "0.25 tsp"
+                },
+                {
+                    "name": "Red Chili Powder",
+                    "quantity_per_person": "0.5 tsp"
+                },
+                {
+                    "name": "Coriander Powder (Dhania)",
+                    "quantity_per_person": "1 tsp"
+                },
+                {
+                    "name": "Garam Masala Powder",
+                    "quantity_per_person": "0.25 tsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity_per_person": "0.5 tsp"
+                },
+                {
+                    "name": "Fresh Cream (optional)",
+                    "quantity_per_person": "1 tbsp"
+                },
+                {
+                    "name": "Coriander Leaves (chopped)",
+                    "quantity_per_person": "1 tbsp"
+                },
+                {
+                    "name": "Water (for washing)",
+                    "quantity_per_person": "~200ml"
+                },
+                {
+                    "name": "Water (for gravy)",
+                    "quantity_per_person": "~200ml"
+                }
+            ]
+        },
+        {
+            "id": "sambar",
+            "name": "Sambar",
+            "category": "veg",
+            "isPopular": false,
+            "image": "media/sambar.png",
+            "description": "A traditional South Indian lentil and vegetable stew, known for its tangy, spicy, and aromatic flavors, perfect with rice or idli/dosa.",
+            "ingredients": [
+                {
+                    "name": "Toor Dal (Arhar Dal)",
+                    "quantity_per_person": "50g (~1/4 cup)"
+                },
+                {
+                    "name": "Turmeric Powder",
+                    "quantity_per_person": "0.25 tsp"
+                },
+                {
+                    "name": "Oil (for dal cooking)",
+                    "quantity_per_person": "0.25 tsp"
+                },
+                {
+                    "name": "Mixed Vegetables (e.g., Drumstick, Carrot, Pumpkin, Brinjal, Sambar Onions)",
+                    "quantity_per_person": "125g"
+                },
+                {
+                    "name": "Tomato (chopped)",
+                    "quantity_per_person": "50g (~1/2 medium)"
+                },
+                {
+                    "name": "Tamarind Concentrate",
+                    "quantity_per_person": "1 tsp"
+                },
+                {
+                    "name": "Sambar Powder",
+                    "quantity_per_person": "1.5 tsp"
+                },
+                {
+                    "name": "Jaggery or Sugar (optional)",
+                    "quantity_per_person": "0.25 tsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity_per_person": "0.75 tsp"
+                },
+                {
+                    "name": "Oil or Ghee (for tempering)",
+                    "quantity_per_person": "1 tsp"
+                },
+                {
+                    "name": "Mustard Seeds (Rai)",
+                    "quantity_per_person": "0.25 tsp"
+                },
+                {
+                    "name": "Cumin Seeds (Jeera, optional)",
+                    "quantity_per_person": "0.25 tsp"
+                },
+                {
+                    "name": "Dry Red Chili",
+                    "quantity_per_person": "1"
+                },
+                {
+                    "name": "Curry Leaves",
+                    "quantity_per_person": "5-6 leaves"
+                },
+                {
+                    "name": "Asafoetida (Hing)",
+                    "quantity_per_person": "pinch"
+                },
+                {
+                    "name": "Water (for washing)",
+                    "quantity_per_person": "~500ml"
+                },
+                {
+                    "name": "Water (for cooking dal)",
+                    "quantity_per_person": "~400ml"
+                },
+                {
+                    "name": "Water (for cooking veg & adjusting consistency)",
+                    "quantity_per_person": "~300ml"
+                }
+            ]
+        }
+    ]
+}

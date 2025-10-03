@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="recipe-page-title">Fresco - Recipe Details</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="media/fresco_logo_favicon.png" type="image/png">
+</head>
+
+<body id="recipe-page">
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <a href="index.html"> <img src="media/fresco_logo.jpg" alt="Fresco Logo - Food for Every Mood"
+                        class="main-logo">
+                </a>
+            </div>
+            <nav>
+                <a href="index.html" class="btn">Back to Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container recipe-details-page">
+        <section class="recipe-hero">
+            <img src="media/placeholder_recipe.png" alt="Recipe Image" id="recipe-image">
+            <h1 id="recipe-title">Loading Recipe...</h1>
+            <p id="recipe-description"></p>
+        </section>
+
+        <section class="recipe-actions">
+            <div class="persons-selector">
+                <label for="persons">Servings:</label>
+                <select id="persons" name="persons">
+                    <option value="1">1 Person</option>
+                    <option value="2">2 Persons</option>
+                    <option value="4">4 Persons</option>
+                    <option value="6">6 Persons</option>
+                </select>
+            </div>
+            <button class="btn buy-now">Buy Now</button>
+        </section>
+
+        <section class="ingredients-list">
+            <h2>Ingredients for <span id="display-persons">1</span> Person</h2>
+            <ul id="ingredients-container">
+                <li>**Loading Ingredients...**</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Fresco. All rights reserved. Food for Every Mood.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

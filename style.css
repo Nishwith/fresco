@@ -1,0 +1,463 @@
+/* Basic Reset & Typography (keep as is) */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #2c3e50;
+    background-color: #ecf0f1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header (keep as is) */
+header {
+    background-color: #ffffff;
+    padding: 15px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    margin-bottom: 25px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-container {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-logo {
+    max-width: 220px;
+    height: auto;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+header nav .btn {
+    background-color: #f39c12;
+    /* Fresco Orange */
+    color: white;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header nav .btn:hover {
+    background-color: #e67e22;
+    /* Darker Fresco Orange */
+    transform: translateY(-2px);
+}
+
+
+/* Category Navigation (keep as is) */
+.category-navigation {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 35px;
+    flex-wrap: wrap;
+}
+
+.category-btn {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    color: #34495e;
+    padding: 12px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.05rem;
+    font-weight: 600;
+    transition: all 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.category-btn:hover {
+    background-color: #e0e6e8;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category-btn.active {
+    background-color: #e67e22;
+    /* Vibrant orange for active */
+    color: white;
+    border-color: #e67e22;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Item List (keep as is) */
+.item-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.food-item {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.food-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
+}
+
+.food-item img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.food-item h3 {
+    margin: 20px 0 12px;
+    color: #e67e22;
+    /* Fresco orange */
+    font-size: 1.5rem;
+}
+
+.food-item .description {
+    padding: 0 20px;
+    font-size: 1em;
+    color: #555;
+    min-height: 50px;
+    margin-bottom: 20px;
+}
+
+.item-actions {
+    padding: 20px;
+    border-top: 1px solid #ecf0f1;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #27ae60;
+    /* Attractive green for Buy Now */
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+    border: none;
+    font-size: 1.05rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn.view-details {
+    background-color: #f39c12;
+    /* Brighter orange for view details */
+}
+
+.btn.view-details:hover {
+    background-color: #e67e22;
+    transform: translateY(-2px);
+}
+
+.btn.buy-now {
+    background-color: #27ae60;
+    /* Vibrant green */
+    margin-left: 20px;
+}
+
+.btn.buy-now:hover {
+    background-color: #2ecc71;
+    /* Lighter green on hover */
+    transform: translateY(-2px);
+}
+
+
+/* Recipe Details Page (keep as is) */
+.recipe-details-page {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.recipe-hero {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.recipe-hero img {
+    max-width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-hero h1 {
+    color: #e67e22;
+    /* Fresco Orange */
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.recipe-hero p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 25px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recipe-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.persons-selector label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #34495e;
+    margin-right: 15px;
+}
+
+.persons-selector select {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #bdc3c7;
+    font-size: 1.1rem;
+    cursor: pointer;
+    background-color: #fcfcfc;
+    transition: border-color 0.3s ease;
+}
+
+.persons-selector select:focus {
+    outline: none;
+    border-color: #f39c12;
+    /* Highlight with Fresco Orange on focus */
+}
+
+.ingredients-list h2 {
+    color: #34495e;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* === REVISED INGREDIENT LIST STYLES (MORE COLOR, RESPONSIVE) === */
+.ingredients-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* Use flexbox for flexibility in responsiveness, combined with grid later */
+    display: flex;
+    flex-direction: column;
+    /* Default to single column */
+    gap: 0;
+    /* No vertical gap, managed by padding + border */
+}
+
+/* Apply two columns for screens wider than 768px */
+@media (min-width: 768px) {
+    .ingredients-list ul {
+        display: grid;
+        /* Switch to grid for two columns */
+        grid-template-columns: 1fr 1fr;
+        gap: 0 30px;
+        /* Gap only between columns, not rows */
+    }
+}
+
+.ingredients-list li {
+    border-bottom: 1px solid #dfe6e9;
+    /* Soft line separator */
+    padding: 18px 5px;
+    /* Generous vertical padding */
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #34495e;
+    transition: background-color 0.3s ease;
+    /* Smooth hover transition */
+}
+
+/* Add a subtle hover effect with Fresco orange */
+.ingredients-list li:hover {
+    background-color: rgba(243, 156, 18, 0.05);
+    /* Very light Fresco orange tint on hover */
+}
+
+
+/* Make sure last items in list don't have bottom border for a clean finish */
+.ingredients-list li:last-child {
+    border-bottom: none;
+}
+
+/* For grid layout, handle last two items for a cleaner look */
+@media (min-width: 768px) {
+    .ingredients-list li:nth-last-child(-n+2) {
+        /* Selects the last one or two items */
+        border-bottom: none;
+    }
+
+    /* If number of items is odd and more than 1, ensure the odd item at the end doesn't have a border */
+    .ingredients-list ul:not(:has(li:nth-child(even))):has(li:last-child):not(:has(li:nth-last-child(2))):last-child {
+        border-bottom: none;
+    }
+}
+
+
+.ingredients-list li::before {
+    content: '';
+    flex-shrink: 0;
+    width: 24px;
+    /* Slightly larger icon */
+    height: 24px;
+    margin-right: 15px;
+    background-image: url('images/leaf_icon_colored.png');
+    /* Using a more colorful icon */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* Footer (keep as is) */
+footer {
+    background-color: #f39c12;
+    color: #000000;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 40px;
+    font-size: 0.95em;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+/* Media Queries for Responsiveness (adjustments for ingredient list) */
+@media (max-width: 767px) {
+
+    /* Changed from 768px to 767px for consistency */
+    .main-logo {
+        max-width: 180px;
+    }
+
+    header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .recipe-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .recipe-hero img {
+        height: 300px;
+    }
+
+    .recipe-actions {
+        flex-direction: column;
+    }
+
+    .btn.buy-now {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .food-item h3 {
+        font-size: 1.3rem;
+    }
+
+    .food-item .description {
+        min-height: unset;
+    }
+
+    /* Ingredient list specific for mobile */
+    .ingredients-list li {
+        padding: 15px 5px;
+        /* Slightly less padding on mobile */
+        font-size: 1rem;
+    }
+
+    .ingredients-list li::before {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .recipe-details-page {
+        border-radius: 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .category-btn {
+        padding: 10px 20px;
+        font-size: 0.95rem;
+    }
+
+    .main-logo {
+        max-width: 150px;
+    }
+
+    .recipe-hero h1 {
+        font-size: 2rem;
+    }
+
+    .recipe-hero img {
+        margin-top: 10px;
+        height: 220px;
+    }
+
+    .persons-selector label,
+    .persons-selector select,
+    .btn {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 10px 20px;
+    }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresco - Food for Every Mood</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="media/fresco_logo_favicon.png" type="image/png">
+</head>
+
+<body id="home-page">
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="media/fresco_logo.jpg" alt="Fresco Logo - Food for Every Mood" class="main-logo">
+            </div>
+            <nav>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="category-navigation">
+            <button class="category-btn active" data-category="all">All Items</button>
+            <button class="category-btn" data-category="veg">Veg</button>
+            <button class="category-btn" data-category="non-veg">Non-Veg</button>
+            <button class="category-btn" data-category="popular">Popular</button>
+        </section>
+
+        <section class="item-list">
+            <div class="food-item" data-category="non-veg">
+                <img src="media/chicken_biryani.png" alt="Chicken Biryani">
+                <h3>Chicken Biryani</h3>
+                <p class="description">Aromatic basmati rice layered with succulent marinated chicken, cooked to
+                    perfection.</p>
+                <div class="item-actions">
+                    <a href="recipe.html?name=chicken-biryani" class="btn view-details">View Recipe</a>
+                </div>
+            </div>
+
+            <div class="food-item" data-category="non-veg">
+                <img src="media/butter_chicken.png" alt="Butter Chicken">
+                <h3>Butter Chicken</h3>
+                <p class="description">Creamy tomato-based gravy with tender chicken pieces, a classic Indian delight.
+                </p>
+                <div class="item-actions">
+                    <a href="recipe.html?name=butter-chicken" class="btn view-details">View Recipe</a>
+                </div>
+            </div>
+
+            <div class="food-item" data-category="veg">
+                <img src="media/matar_paneer.png" alt="Matar Paneer Masala">
+                <h3>Matar Paneer Masala</h3>
+                <p class="description">Soft paneer and green peas simmered in a rich, flavorful onion-tomato gravy.</p>
+                <div class="item-actions">
+                    <a href="recipe.html?name=matar-paneer-masala" class="btn view-details">View Recipe</a>
+                </div>
+            </div>
+
+            <div class="food-item" data-category="veg">
+                <img src="media/sambar.png" alt="Sambar">
+                <h3>Sambar</h3>
+                <p class="description">A tangy and spicy South Indian lentil stew with a medley of fresh vegetables.</p>
+                <div class="item-actions">
+                    <a href="recipe.html?name=sambar" class="btn view-details">View Recipe</a>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Fresco. All rights reserved. Food for Every Mood.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
